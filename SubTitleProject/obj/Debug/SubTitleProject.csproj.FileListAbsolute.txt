@@ -1,0 +1,7 @@
+c:\users\laurent\source\repos\SubTitleProject\SubTitleProject\bin\Debug\SubTitleProject.exe.config
+c:\users\laurent\source\repos\SubTitleProject\SubTitleProject\bin\Debug\SubTitleProject.exe
+c:\users\laurent\source\repos\SubTitleProject\SubTitleProject\bin\Debug\SubTitleProject.pdb
+c:\users\laurent\source\repos\SubTitleProject\SubTitleProject\obj\Debug\SubTitleProject.csprojResolveAssemblyReference.cache
+c:\users\laurent\source\repos\SubTitleProject\SubTitleProject\obj\Debug\SubTitleProject.csproj.CoreCompileInputs.cache
+c:\users\laurent\source\repos\SubTitleProject\SubTitleProject\obj\Debug\SubTitleProject.exe
+c:\users\laurent\source\repos\SubTitleProject\SubTitleProject\obj\Debug\SubTitleProject.pdb

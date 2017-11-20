@@ -1,0 +1,25 @@
+﻿<Window x:Class="WindowSubTitle.SelectWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WindowSubTitle"
+        mc:Ignorable="d"
+        Title="Séléction des médias" Height="210" Width="560">
+    <Grid>
+        <Grid Height="60" Margin="0,0,0,119">
+            <Label Height="30" Width="50" Margin="15,15,477,15">Vidéo :</Label>
+            <TextBlock Height="30" Width="330" Name="PathVideoFile" Margin="87,15,125,15" DataContext="Video"></TextBlock>
+            <Button Height="30" Width="100" Margin="422,15,20,15" Name="Select_file" Click="Select_file_Click">Parcourir</Button>
+        </Grid>
+        <Grid Height="60" Margin="0,60,0,59">
+            <TextBlock Height="30" Width="330" Name="PathSubtitleFile" Margin="87,15,125,15"></TextBlock>
+            <Label Height="30" Width="70" Margin="10,15,462,15">Sous-Titre :</Label>
+            <Button Height="30" Width="100" Margin="422,15,20,15" Name="Select_subtitle" Click="Select_subtitle_Click">Parcourir</Button>
+        </Grid>
+        <Grid Height="60" Margin="0,120,0,-1">
+            <Button Height="30" Width="100" Name="Validate" Click="Validate_Click" Margin="140,15,312,15">Valider</Button>
+            <Button Height="30" Width="100" Name="Cancel" Margin="282,15,170,15" Click="Cancel_Click">Annuler</Button>
+        </Grid>
+    </Grid>
+</Window>
